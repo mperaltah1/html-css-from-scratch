@@ -37,6 +37,8 @@ En esta guía se detallan los pasos a seguir para crear una página web para una
         </header>
         <nav>
         </nav>
+        <main>
+        </main>
         <footer>
         </footer>
     <div>
