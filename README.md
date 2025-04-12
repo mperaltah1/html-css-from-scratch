@@ -129,7 +129,7 @@ Ejemplo:
 ### Agregando estilo a la página web
 
 1. Crear un nuevo documento llamado `style.css` y guardarlo en la carpeta previamente creada.
-2. Agregaremos la etiqueta `<link>` con la información de nuestro archivo css `<link href="style.css" rel="stylesheet" type="text/css">`.
+2. En el HTML abajo de la etiqueta <title>, agregaremos la etiqueta `<link>` con la información de nuestro archivo css `<link href="style.css" rel="stylesheet" type="text/css">`.
 3. En `style.css` agregaremos un color grisaseo (`#f7f7f7`) al body como color de fondo y una lista de fuentes `Arial, Helvetica, sans-serif`.
 
 ```
