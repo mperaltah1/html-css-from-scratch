@@ -106,7 +106,7 @@ Ejemplo:
 
 ```
 <a href="https://www.facebook.com/" target="_blank">
-    <img src="imagenes/icon-facebook.webp" alt="Facebook"/>
+    <img src="imagenes/icon-facebook.webp" alt="Facebook" width="60" height="60" />
 </a>
 ```
 
