@@ -1,16 +1,17 @@
-# INSTRUCCIONES
+# Creación de una página web desde 0
 
 En esta guía se detallan los pasos a seguir para crear una página web para una veterinaria llamada `Mi Mascota Preferida`.
 
-## Creación de una página web desde 0
+## Instrucciones
+Lea el contenido a detalle y trate de comprender los conceptos acá mencionados; puede expandir las secciones que dicen `Resultado esperado hasta el momento` para ver una imagen de cómo debería ir quedando la página.
 
 ### Código HTML
 
 1. Cree una carpeta con su nombre y apellido `nombre-apellido` que contendrá todos los documentos necesarios para crear la página web.
-2. Dentro de la carpeta que acaba de crear.
+2. Dentro de la carpeta que acaba de crear:
 
-   1. Coloque la carpeta de imágenes que se le proporciono.
-   2. Cree un nuevo documento HTML con el nombre `index.html` el cual contendra el codigo base.
+   1. Coloque la carpeta de imágenes que se le proporcionó.
+   2. Cree un nuevo documento HTML con el nombre `index.html`, el cual contendrá el código base.
 
    ```
    <!DOCTYPE html>
@@ -28,7 +29,7 @@ En esta guía se detallan los pasos a seguir para crear una página web para una
 3. Crearemos primero la estructura principal de la página y luego agregaremos el estilo a la página.
 4. Se le recomienda utilizar Visual Studio Code para facilitar el desarrollo.
 5. Dentro de `<body>` cree las etiquetas `<header>` `<nav>` `<main>` y `<footer>` con su respectiva etiqueta de cierre. Por el momento estarán vacías.
-6. Creamos un `<div>` que encierre todas las etiquetas que acabamos de agregar
+6. Creamos un `<div>` que encierre todas las etiquetas que acabamos de agregar.
 
 ```
 <body>
@@ -41,12 +42,12 @@ En esta guía se detallan los pasos a seguir para crear una página web para una
         </main>
         <footer>
         </footer>
-    <div>
+    </div>
   </body>
 ```
 
-7. Dentro de `header` agregamos la imagen de `avatar`, un título principal (h1) `Clínica Veterinaria` y un subtíulo (h2) `Mi Mascota Preferida`. Por el momento no se preocupen si la imagen es muy grande.
-   - Pista: La imagen debe contener la ubicacion de la carpeta y el nombre de la imagen con su extension en la propiedad src `src="imagenes/nombre.extension"`
+7. Dentro de `header` agregamos la imagen de `avatar`, un título principal (h1) `Clínica Veterinaria` y un subtítulo (h2) `Mi Mascota Preferida`. Por el momento, no se preocupen si la imagen es muy grande.
+   - Pista: La imagen debe contener la ubicación de la carpeta y el nombre de la imagen con su extensión en la propiedad src `src="imagenes/nombre.extension"`
 
 <details>
 <summary style="color:blue;">Resultado esperado hasta el momento</summary>
@@ -55,7 +56,7 @@ En esta guía se detallan los pasos a seguir para crear una página web para una
 
 </details><br>
 
-8. Dentro de `nav` agregamos una etiqueta `<div>`. Y dentro de esa etiqueta crearemos unos hipervínculos que harán referencia a otras páginas de nuestro sitio web.
+8. Dentro de `nav`, agregamos una etiqueta `<div>` y dentro de esa etiqueta crearemos unos hipervínculos que harán referencia a otras páginas de nuestro sitio web.
 
 ```
 <a href="index.html">Inicio</a>
@@ -70,10 +71,10 @@ En esta guía se detallan los pasos a seguir para crear una página web para una
 
 </details><br>
 
-9. Dentro de `<main>` agregaremos la imagen gif `veterinarian`. Luego crearemos una etiqueta article y dentro agregaremos un subtítulo (h2) `Mision y Vision`y un párrafo (p) con la siguente información
+9. Dentro de `<main>` agregaremos la imagen GIF `veterinarian`. Luego crearemos una etiqueta article y dentro agregaremos un subtítulo (h2) `Misión y Visión` y un párrafo (p) con la siguiente información
 
 ```
-Contamos con el mejor equipo de profesionales en la industria veterinaria, contamos con instalaciones modernas y con equipo tecnológico para poder diagnosticar, asesorar y ayudarte a cuidar a tu mascota. Contamos con mas de 15 clínicas para cubrir la Ciudad de Guatemala y estamos en proceso de crecimiento para estar cada vez más cerca de tu casa.
+Contamos con el mejor equipo de profesionales en la industria veterinaria, contamos con instalaciones modernas y con equipo tecnológico para poder diagnosticar, asesorar y ayudarte a cuidar a tu mascota. Contamos con más de 15 clínicas para cubrir la Ciudad de Guatemala y estamos en proceso de crecimiento para estar cada vez más cerca de tu casa.
 
 ```
 
@@ -84,7 +85,7 @@ Contamos con el mejor equipo de profesionales en la industria veterinaria, conta
 
 </details><br>
 
-1.  Dentro de `<main>` también agregaremos un hipervínculo a la página de contacto `<a href="contacto.html">Puedes contactarnos aquí</a>` y el gif `cute-dog`.
+10. Dentro de `<main>` también agregaremos un hipervínculo a la página de contacto `<a href="contacto.html">Puedes contactarnos aquí</a>` y el gif `cute-dog`.
 
 <details>
 <summary style="color:blue;">Resultado esperado hasta el momento</summary>
@@ -102,7 +103,7 @@ Contamos con el mejor equipo de profesionales en la industria veterinaria, conta
 
 </details><br>
 
-12. Agregaremos un `div` despues de la etiqueta `main` simulando las redes sociales (facebook e instagram) de la empresa. Las imágenes contienen el hipervínculo que abre una nueva ventana y redirecciona a la página principal de la red social. Primero agregaremos un párrafo con el siguiente mensaje `Puedes encontrarnos en nuestras redes sociales`. Luego agregaremos la etiqueta `<a>` para agregar un nuevo hipervínculo y dentro de esta etiqueta agregaremos la imagen de la red social en específico.
+12. Agregaremos un `div` después de la etiqueta `main` simulando las redes sociales (Facebook e Instagram) de la empresa. Las imágenes contienen el hipervínculo que abre una nueva ventana y redirecciona a la página principal de la red social. Primero agregaremos un párrafo con el siguiente mensaje `Puedes encontrarnos en nuestras redes sociales`. Luego agregaremos la etiqueta `<a>` para agregar un nuevo hipervínculo y dentro de esta etiqueta agregaremos la imagen de la red social en específico.
 
 Ejemplo:
 
@@ -129,8 +130,8 @@ Ejemplo:
 ### Agregando estilo a la página web
 
 1. Crear un nuevo documento llamado `style.css` y guardarlo en la carpeta previamente creada.
-2. En el HTML abajo de la etiqueta <title>, agregaremos la etiqueta `<link>` con la información de nuestro archivo css `<link href="style.css" rel="stylesheet" type="text/css">`.
-3. En `style.css` agregaremos un color grisaseo (`#f7f7f7`) al body como color de fondo y una lista de fuentes `Arial, Helvetica, sans-serif`.
+2. En el HTML, abajo de la etiqueta <title>, agregaremos la etiqueta `<link>` con la información de nuestro archivo CSS `<link href="style.css" rel="stylesheet" type="text/css">`.
+3. En `style.css` agregaremos un color grisáceo (`#f7f7f7`) al body como color de fondo y una lista de fuentes `Arial, Helvetica, sans-serif`.
 
 ```
    body {
@@ -148,7 +149,7 @@ Ejemplo:
 
 </details><br>
 
-5. En `style.css` definiremos el estilo a la clase `container` que sera un tipo de sombra con un efecto como que sobresaliera.
+5. En `style.css` definiremos el estilo a la clase `container`, que será un tipo de sombra con un efecto como que sobresaliera.
 
 ```
 background: white;
@@ -166,7 +167,7 @@ box-shadow: 0px 0px 30px 0px #999999;
 
 </details><br>
 
-6. En `style.css` definiremos el estilo a la etiqueta `header`. Un fondo verdoso (`#45ADA8`), una alineacion de texto centrada y un padding (espacio que se crea al rededor de los elementos, espacio arriba, espacio derecha, espacio abajo, espacio izquierda) de `70px 0px`.
+6. En `style.css` definiremos el estilo a la etiqueta `header`: un fondo verdoso (`#45ADA8`), una alineación de texto centrada y un padding (espacio que se crea alrededor de los elementos, espacio arriba, espacio derecha, espacio abajo, espacio izquierda) de `70px 0px`.
 <details>
 <summary style="color:blue;">Resultado esperado hasta el momento</summary>
 
@@ -189,7 +190,7 @@ header img {
 
 </details><br>
 
-8. En `style.css` definiremos el estilo al título de header, con un color del texto `blanco`, un tamaño de fuente de `24px`, transmorfaremos el texto a mayúsculas  `text-transform: uppercase;` y un margen de `0px`.
+8. En `style.css` definiremos el estilo al título de header, con un color del texto `blanco`, un tamaño de fuente de `24px`, transformaremos el texto a mayúsculas con `text-transform: uppercase;` y un margen de `0px`.
 9. En `style.css` definiremos el estilo al subtítulo de header, con un color del texto `negro`, un tamaño de fuente de `20px`, y un margen de `10px`.
 <details>
 <summary style="color:blue;">Resultado esperado hasta el momento</summary>
