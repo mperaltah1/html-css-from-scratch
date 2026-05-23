@@ -94,7 +94,7 @@ Contamos con el mejor equipo de profesionales en la industria veterinaria, conta
 
 </details><br>
 
-11. Dentro de `<footer>` agregaremos un párrafo con el siguiente mensaje `&copy; 2025 - Sitio creado por su_nombre`
+11. Dentro de `<footer>` agregaremos un párrafo con el siguiente mensaje `&copy; año_en_curso - Sitio creado por su_nombre`
 
 <details>
 <summary style="color:blue;">Resultado esperado hasta el momento</summary>
