@@ -200,7 +200,7 @@ header img {
 </details><br>
 
 10. En `style.css` definiremos el estilo de nuestro menú. Primero creando un fondo de un verde un poco mas oscuro (`#547980`) al de header.
-11. En nuestro código html agregamos al div de header un atributo `class="menu"`.
+11. En nuestro código html agregamos al div de nav un atributo `class="menu"`.
 12. En `style.css` definiremos el estilo de la clase `menu`. Agregando un passind de `10px` un margen izquierdo `auto`, un margen derecho `auto`, un tamaño de ancho de `50%`, y un `overflow: auto` 
 ```
 padding: 10px;
